@@ -2,4 +2,4 @@
 medida = float(input('Uma distância em metros: '))
 cm = medida * 100
 mm = medida * 1000
-print('A medida de {}m corresponde a \n{:.0f}cm \n{:.0f}mm '.format(medida, cm, mm))
+print(f'A medida de {medida}m corresponde a \n{cm :.0f}cm \n{mm :.0f}mm ')
